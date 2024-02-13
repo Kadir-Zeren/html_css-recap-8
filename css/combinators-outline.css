@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0.5rem;
+}
+
+.box p {
+  color: red;
+}
+
+.box > h1 {
+  color: blue;
+}
+
+.box + h1 {
+  color: blueviolet;
+}
+
+.box ~ p {
+  color: green;
+}
+
+h1#outline {
+  color: red;
+}
